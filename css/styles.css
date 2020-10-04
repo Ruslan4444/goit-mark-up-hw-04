@@ -257,19 +257,28 @@ body {
   letter-spacing: 0.03em;
   color: var(--description-text-color);
 }
-/* footer */
+/* ========footer============ */
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
 
   background-color: var(--footer-background-color);
 }
-.container .adress-links {
+.adress-links {
   display: flex;
   flex-direction: column;
 }
+.footer-contacts,
+.social-contacts {
+  display: inline-block;
+}
+.social-contacts {
+  margin: 0;
+  padding: 0;
+}
 .adress {
   margin-top: 20px;
+  margin-right: 70px;
 }
 .footer .logo {
   margin-right: 0px;
