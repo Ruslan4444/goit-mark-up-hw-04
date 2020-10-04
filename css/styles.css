@@ -17,6 +17,7 @@
   --list-button-color: #212121;
   --adress-text-color: #ffffff;
   --adress-item-color: rgba(255, 255, 255, 0.6);
+  --social-title: #ffffff;
 }
 *,
 *::before,
@@ -111,7 +112,9 @@ body {
 .contacts-item:focus {
   color: var(--accent-color);
 }
-/* hero */
+/* ==========END HEADER=========== */
+
+/*=============HERO==============*/
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
@@ -120,6 +123,11 @@ body {
   background-color: var(--hero-background-color);
 }
 .hero-title {
+  display: flex;
+  width: 696px;
+  height: 120px;
+  margin: auto;
+
   margin-bottom: 30px;
 
   font-weight: 900;
@@ -267,6 +275,18 @@ body {
 .adress-links {
   display: flex;
   flex-direction: column;
+}
+.footer .container {
+  display: flex;
+  align-items: center;
+}
+.social-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1, 143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--social-title);
 }
 .footer-contacts,
 .social-contacts {
