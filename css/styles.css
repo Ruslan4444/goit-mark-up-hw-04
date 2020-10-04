@@ -8,7 +8,7 @@
   --header-logo-color: #000000;
   --footer-logo-color: #ffffff;
   --nav-link-color: #212121;
-  --hero-background-color: #2f303a;
+  --hero-background-color: rgba(47, 48, 58, 0.4);
   --hero-title-color: #ffffff;
   --button-color: #ffffff;
   --ourteam-background-color: #f5f4fa;
@@ -132,8 +132,14 @@ body {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
-
   background-color: var(--hero-background-color);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .hero-title {
   display: flex;
@@ -164,7 +170,9 @@ body {
   color: var(--button-color);
   background: var(--accent-color);
 }
-/* features */
+/* ========END HERO=========== */
+
+/* ===========FEATURES========= */
 .features .container {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -201,7 +209,9 @@ body {
   letter-spacing: 0.03em;
   color: var(--description-text-color);
 }
-/* Specialization */
+/* =============END FEATURES=========== */
+
+/* =============SPECIALIZATION========= */
 .specialization .container {
   padding-bottom: 94px;
 }
@@ -225,8 +235,9 @@ body {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
+/* ============END SPECIALIZATION======== */
 
-/* team */
+/* ============TEAM=====================*/
 .ourteam .container {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -278,7 +289,9 @@ body {
   letter-spacing: 0.03em;
   color: var(--description-text-color);
 }
-/* ========footer============ */
+/* ===============END TEAM============ */
+
+/* =================FOOTER============ */
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
