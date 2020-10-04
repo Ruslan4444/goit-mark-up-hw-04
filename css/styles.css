@@ -11,7 +11,7 @@
   --hero-background-color: rgba(47, 48, 58, 0.4);
   --hero-title-color: #ffffff;
   --button-color: #ffffff;
-  --ourteam-background-color: #f5f4fa;
+  --ourteam-background-color: #ffffff;
   --team-member-color: #212121;
   --footer-background-color: #2f303a;
   --list-button-color: #212121;
@@ -312,6 +312,26 @@ body {
   line-height: 1.188;
   letter-spacing: 0.03em;
   color: var(--description-text-color);
+}
+.team-social-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 44px;
+  background-color: #ffffff;
+  border-radius: 27, 27%;
+}
+.team-social-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px;
+  padding: 32px;
+  padding: 30px;
+}
+.team-social-svg {
+  display: flex;
+  width: 20px;
+  height: 20px;
 }
 /* ===============END TEAM============ */
 
