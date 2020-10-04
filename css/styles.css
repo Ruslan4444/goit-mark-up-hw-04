@@ -17,6 +17,7 @@
   --list-button-color: #212121;
   --adress-text-color: #ffffff;
   --adress-item-color: rgba(255, 255, 255, 0.6);
+  --social-title-color: #ffffff;
 }
 *,
 *::before,
@@ -265,6 +266,13 @@ body {
 }
 .clients-title {
   margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 667;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
 }
 .clients-list {
   display: flex;
@@ -321,6 +329,14 @@ body {
 .adress-item:hover,
 .adress-item:focus {
   color: var(--accent-color);
+}
+.social-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1, 143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 /* Header portfolio */
 .header-portfolio .container {
