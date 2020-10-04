@@ -264,6 +264,10 @@ body {
 
   background-color: var(--footer-background-color);
 }
+.footer .container {
+  display: flex;
+  align-items: center;
+}
 .adress-links {
   display: flex;
   flex-direction: column;
@@ -271,10 +275,6 @@ body {
 .footer-contacts,
 .social-contacts {
   display: inline-block;
-}
-.social-contacts {
-  margin: 0;
-  padding: 0;
 }
 .adress {
   margin-top: 20px;
