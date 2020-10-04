@@ -11,8 +11,9 @@
   --hero-background-color: rgba(47, 48, 58, 0.4);
   --hero-title-color: #ffffff;
   --button-color: #ffffff;
-  --ourteam-background-color: #ffffff;
+  --ourteam-background-color: #f5f4fa;
   --team-member-color: #212121;
+  --team-items-background-color: #ffffff;
   --footer-background-color: #2f303a;
   --list-button-color: #212121;
   --adress-text-color: #ffffff;
@@ -283,6 +284,9 @@ body {
 }
 .team-list {
   display: flex;
+}
+.team-items {
+  background-color: var(--team-items-background-color);
 }
 .ourteam {
   background-color: var(--ourteam-background-color);
