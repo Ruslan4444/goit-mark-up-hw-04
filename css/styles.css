@@ -17,7 +17,6 @@
   --list-button-color: #212121;
   --adress-text-color: #ffffff;
   --adress-item-color: rgba(255, 255, 255, 0.6);
-  --social-title-color: #ffffff;
 }
 *,
 *::before,
@@ -205,7 +204,8 @@ body {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
-/*==========TEAM================*/
+
+/* team */
 .ourteam .container {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -257,41 +257,12 @@ body {
   letter-spacing: 0.03em;
   color: var(--description-text-color);
 }
-/* ==========END TEAM=========== */
-/* ==========CLIENTS============ */
-.clients .container {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  text-align: center;
-}
-.clients-title {
-  margin-bottom: 50px;
-
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1, 667;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--title-text-color);
-}
-.clients-list {
-  display: flex;
-  justify-content: center;
-}
-.clients-list-item.contacts-items:not(:last-child) {
-  margin-right: 30px;
-}
-/* ==========END CLIENTS=========== */
-/* ========FOOTER============ */
+/* ========footer============ */
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
 
   background-color: var(--footer-background-color);
-}
-.footer .container {
-  display: flex;
-  align-items: center;
 }
 .adress-links {
   display: flex;
@@ -300,6 +271,10 @@ body {
 .footer-contacts,
 .social-contacts {
   display: inline-block;
+}
+.social-contacts {
+  margin: 0;
+  padding: 0;
 }
 .adress {
   margin-top: 20px;
@@ -330,14 +305,6 @@ body {
 .adress-item:focus {
   color: var(--accent-color);
 }
-.social-title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1, 143;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #ffffff;
-}
 /* Header portfolio */
 .header-portfolio .container {
   display: flex;
@@ -351,8 +318,7 @@ body {
 .header-portfolio {
   border-bottom: #ececec 1px solid;
 }
-/* ===========END FOOTER============ */
-/* ==========PORTFOLIO============== */
+/* main portfolio */
 .works {
   background-color: var(--main-background-color);
 }
@@ -421,4 +387,3 @@ body {
   letter-spacing: 0.03em;
   color: var(--description-text-color);
 }
-/* ===============END PORTFOLIO============== */
