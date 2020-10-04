@@ -204,8 +204,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
-
-/* team */
+/*==========TEAM================*/
 .ourteam .container {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -257,7 +256,25 @@ body {
   letter-spacing: 0.03em;
   color: var(--description-text-color);
 }
-/* ========footer============ */
+/* ==========END TEAM=========== */
+/* ==========CLIENTS============ */
+.clients .container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  text-align: center;
+}
+.clients-title {
+  margin-bottom: 50px;
+}
+.clients-list {
+  display: flex;
+  justify-content: center;
+}
+.clients-list-item.contacts-items:not(:last-child) {
+  margin-right: 30px;
+}
+/* ==========END CLIENTS=========== */
+/* ========FOOTER============ */
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -318,7 +335,8 @@ body {
 .header-portfolio {
   border-bottom: #ececec 1px solid;
 }
-/* main portfolio */
+/* ===========END FOOTER============ */
+/* ==========PORTFOLIO============== */
 .works {
   background-color: var(--main-background-color);
 }
@@ -387,3 +405,4 @@ body {
   letter-spacing: 0.03em;
   color: var(--description-text-color);
 }
+/* ===============END PORTFOLIO============== */
