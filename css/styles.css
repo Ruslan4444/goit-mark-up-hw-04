@@ -279,9 +279,6 @@ body {
   margin-right: 30px;
 }
 .team-list-content {
-  padding-top: 30px;
-  padding-left: 30px;
-  padding-right: 30px;
   text-align: center;
 }
 .team-items {
@@ -310,6 +307,7 @@ body {
 }
 .team-member {
   margin-bottom: 10px;
+  margin-top: 30px;
 
   font-weight: 500;
   font-size: 16px;
@@ -334,6 +332,7 @@ body {
   height: 44px;
   background-color: #ffffff;
   border-radius: 50%;
+  fill: #afb1b8;
 }
 .team-social-list {
   display: flex;
@@ -351,21 +350,9 @@ body {
   align-items: center;
 }
 .team-social-link:hover,
-.team-social-link:focus,
-.team-social-svg:hover,
-.team-social-svg:focus {
+.team-social-link:focus {
   background-color: var(--accent-color);
   fill: #ffffff;
-}
-/* .team-social-svg:hover,
-.team-social-svg:focus {
-  fill: #ffffff;
-} */
-.team-social-link {
-  color: #afb1b8;
-}
-.team-social-svg {
-  fill: currentColor;
 }
 /* ===============END TEAM============ */
 
@@ -393,28 +380,22 @@ body {
 }
 .clients-list-item {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 170px;
-  height: 90px;
-
   border: 1px solid currentColor;
 }
-.clients-svg {
-  display: flex;
-}
 .clients-link {
-  color: #afb1b8;
+  width: 170px;
+  height: 90px;
+  fill: #afb1b8;
+  align-items: center;
+  justify-items: center;
 }
 .clients-svg {
-  fill: currentColor;
+  margin: 20px 63px;
+  color: currentColor;
 }
-.clients-svg:hover,
-.clients-svg:focus {
+.clients-link:hover,
+.clients-link:focus {
   fill: var(--accent-color);
-}
-.clients-list-item:hover,
-.clients-list-item:focus {
   border: 1px solid var(--accent-color);
 }
 /* ==============END CLIENTS=========== */
