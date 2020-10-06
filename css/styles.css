@@ -121,11 +121,7 @@ body {
 }
 .contacts-svg {
   margin-right: 10px;
-  fill: #757575;
-}
-.contacts-svg:hover,
-.contacts-svg:focus {
-  fill: var(--accent-color);
+  fill: currentColor;
 }
 .contacts-item:hover,
 .contacts-item:focus {
