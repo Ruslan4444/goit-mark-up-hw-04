@@ -375,12 +375,15 @@ body {
 .clients-list {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   color: #afb1b8;
 }
 .clients-list-item {
   display: flex;
+  margin-right: 30px;
   border: 1px solid currentColor;
+}
+.clients-list-item:not(:last-child) {
+  margin-right: 30px;
 }
 .clients-link {
   width: 170px;
