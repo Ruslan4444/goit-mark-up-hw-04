@@ -418,10 +418,11 @@ body {
 }
 .footer .container {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-items: center;
 }
 .footer-social-title {
+  display: inline-block;
   margin-bottom: 20px;
 
   font-weight: 700;
