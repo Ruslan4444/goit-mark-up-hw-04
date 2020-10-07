@@ -21,6 +21,7 @@
   --social-title: #ffffff;
   --icon-color: #afb1b8;
   --background-icon-color: #ffffff;
+  --header-border-bottom: #ececec;
 }
 *,
 *::before,
@@ -500,8 +501,13 @@ body {
   padding-top: 15px;
   padding-bottom: 15px;
 }
+.header-portfolio .contacts-item {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
 .header-portfolio {
-  border-bottom: #ececec 1px solid;
+  border-bottom: var(--header-border-bottom) 1px solid;
 }
 /* ========END HEADER PORTFOLIO======== */
 
@@ -580,4 +586,7 @@ body {
 .work-items-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.work-items-link {
+  text-decoration: none;
 }
