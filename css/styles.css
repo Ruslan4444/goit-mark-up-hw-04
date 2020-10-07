@@ -334,7 +334,7 @@ body {
   height: 44px;
   background-color: var(--background-icon-color);
   border-radius: 50%;
-  fill: var(--icon-color);
+  color: var(--icon-color);
 }
 .team-social-list {
   display: flex;
@@ -346,6 +346,7 @@ body {
 .team-social-svg {
   width: 20px;
   height: 20px;
+  fill: currentColor;
 }
 .team-social-item {
   display: flex;
@@ -354,8 +355,9 @@ body {
 .team-social-link:hover,
 .team-social-link:focus {
   background-color: var(--accent-color);
-  fill: var(--background-icon-color);
+  color: var(--background-icon-color);
 }
+
 /* ===============END TEAM============ */
 
 /* =============CLIENTS================ */
